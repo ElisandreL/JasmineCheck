@@ -1,13 +1,15 @@
 let selectElementsStartingWithA = (array) => {
-    return 'Write your method here';
+    return array.filter(fruit => fruit.startsWith("a"))
 }
 
 let selectElementsStartingWithVowel = (array) => {
-    return 'Write your method here';
+    return array.filter(str => /^[aeiou]/i.test(str));
 }
 
 let removeNullElements = (array) => {
-    return 'Write your method here';
+    return array.filter(function(el) {
+        return el != null;
+    })
 }
 
 let removeNullAndFalseElements = (array) => {
@@ -15,7 +17,9 @@ let removeNullAndFalseElements = (array) => {
 }
 
 let reverseWordsInArray = (array) => {
-    return 'Write your method here';
+    array.forEach (function () {
+        string.split('').reverse().join('')
+    })
 }
 
 let everyPossiblePair = (array) => {
