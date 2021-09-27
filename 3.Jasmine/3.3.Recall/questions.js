@@ -13,7 +13,7 @@ let removeNullElements = (array) => {
 }
 
 let removeNullAndFalseElements = (array) => {
-    return 'Write your method here';
+    return 'Write your method. here';
 }
 
 let reverseWordsInArray = (array) => {
